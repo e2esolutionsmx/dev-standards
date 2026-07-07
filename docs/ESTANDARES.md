@@ -1,4 +1,4 @@
-# Estándares y Normas de Desarrollo de Software - E2E SOLUTIONS
+# Estándares y Normas de Desarrollo de Software - E2E SOLUTIONS MX
 
 > Extracto de: *Estándares y Normas de Desarrollo de Software*, Dirección de Tecnología, E2E SOLUTIONS. 
 > Clasificación: Confidencial | Versión 1.0 | Mayo 2026
