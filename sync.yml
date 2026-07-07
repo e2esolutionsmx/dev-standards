@@ -1,0 +1,10 @@
+group:
+  - repos: |
+      e2esolutionsmx/webbanking-lyncpay
+    files:
+      - source: docs/ESTANDARES.md
+        dest: docs/ESTANDARES.md
+      - source: docs/GIT_WORKFLOW.md
+        dest: docs/GIT_WORKFLOW.md
+      - source: .eslintrc.json
+        dest: .eslintrc.json
