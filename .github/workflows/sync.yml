@@ -3,7 +3,7 @@ name: Sync Standards Files
 on:
   push:
     branches:
-      - develop
+      - main
     paths:
       - 'docs/**'
       - '.eslintrc.json'
@@ -21,6 +21,7 @@ jobs:
         with:
           GH_PAT: ${{ secrets.GH_PAT }}
           CONFIG_PATH: sync.yml
+          PR_BRANCH_NAME: "update-standards-${TIMESTAMP}"
           PR_LABELS: |
             standards-sync
           COMMIT_PREFIX: "chore(standards): "
